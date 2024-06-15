@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git 'https://github.com/Shreeeya777/Jenkins.git'
+                git 'https://github.com/sharadrathod/studentapp-ui.git'
             }
         }
         stage('Build') {
